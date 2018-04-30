@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 DarkKat
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Actionbar -->
+    <dimen name="actionbar_update_button_size">48dp</dimen>
+
+    <!-- No weather data fragment -->
+    <dimen name="no_weather_data_layout_padding_start_top_end">16dp</dimen>
+    <dimen name="no_weather_data_layout_landscape_padding_bottom">8dp</dimen>
+    <dimen name="no_weather_data_image_size">72dp</dimen>
+    <dimen name="no_weather_data_image_portrait_margin_top">16dp</dimen>
+    <dimen name="no_weather_data_image_landscape_margin_start">16dp</dimen>
+    <dimen name="no_weather_data_image_landscape_margin_end">32dp</dimen>
+    <dimen name="no_weather_data_text_margin_top">8dp</dimen>
+    <dimen name="no_weather_data_scroll_view_landscape_margin_top">8dp</dimen>
+    <dimen name="no_weather_data_fading_edge_landscape_length">12dp</dimen>
+
+
+    <!-- Weather fragments -->
+    <dimen name="detailed_weather_fading_edge_length">12dp</dimen>
+    <dimen name="detailed_weather_cards_layout_padding_top_bottom">4dp</dimen>
+
+    <!-- Current weather card -->
+    <dimen name="current_card_margin_start_end">8dp</dimen>
+    <dimen name="current_card_margin_top_bottom">4dp</dimen>
+    <dimen name="current_card_elevation">2dp</dimen>
+
+    <dimen name="current_card_update_time_layout_padding">16dp</dimen>
+    <dimen name="current_card_update_time_text_margin_top">4dp</dimen>
+
+    <dimen name="current_card_condition_temp_layout_padding_start_end">16dp</dimen>
+    <dimen name="current_card_condition_image_size">72dp</dimen>
+    <dimen name="current_card_condition_image_divider_width">1dp</dimen>
+    <dimen name="current_card_condition_image_divider_margin_start_end">8dp</dimen>
+    <dimen name="current_card_condition_temp_divider_height">1dp</dimen>
+    <dimen name="current_card_condition_temp_divider_margin_top_bottom">8dp</dimen>
+    <dimen name="current_card_condition_temp_space_width">0dp</dimen>
+    <dimen name="current_card_condition_temp_space_height">1dp</dimen>
+
+    <dimen name="current_card_day_temps_layout_margin_start_end">16dp</dimen>
+    <dimen name="current_card_day_temps_layout_margin_top">16dp</dimen>
+    <dimen name="current_card_day_temps_layout_margin_bottom">8dp</dimen>
+    <dimen name="current_card_day_temps_temps_layout_width">0dp</dimen>
+    <dimen name="current_card_day_temps_day_layout_margin_start">12dp</dimen>
+
+    <dimen name="current_card_expanded_content_layout_padding_start_end">16dp</dimen>
+    <dimen name="current_card_expanded_content_layout_padding_top_bottom">8dp</dimen>
+    <dimen name="current_card_expanded_content_inner_layout_width">0dp</dimen>
+    <dimen name="current_card_expanded_content_space_width">1dp</dimen>
+    <dimen name="current_card_expanded_content_space_height">4dp</dimen>
+
+    <dimen name="current_card_expanded_content_expand_collapse_button_divider_height">1dp</dimen>
+
+    <dimen name="current_card_expanded_content_bottom_bar_height">48dp</dimen>
+    <dimen name="current_card_expanded_content_bottom_bar_provider_link_padding_start_end">16dp</dimen>
+    <dimen name="current_card_expanded_content_bottom_bar_provider_link_space_width">0dp</dimen>
+    <dimen name="current_card_expanded_content_bottom_bar_provider_link_space_height">1dp</dimen>
+    <dimen name="current_card_expanded_content_expand_collapse_button_padding_start_end">8dp</dimen>
+    <dimen name="current_card_expanded_content_bottom_bar_expand_collapse_button_text_margin_end">8dp</dimen>
+    <dimen name="current_card_expanded_content_bottom_bar_expand_collapse_button_text_padding_start">8dp</dimen>
+    <dimen name="current_card_expanded_content_bottom_bar_expand_collapse_button_icon_width">32dp</dimen>
+    <dimen name="current_card_expanded_content_bottom_bar_expand_collapse_button_icon_height">24dp</dimen>
+    <dimen name="current_card_expanded_content_bottom_bar_expand_collapse_button_icon_padding_end">8dp</dimen>
+
+    <!-- Forecast weather card -->
+    <dimen name="forecast_card_margin_start_end">8dp</dimen>
+    <dimen name="forecast_card_margin_top_bottom">4dp</dimen>
+    <dimen name="forecast_card_elevation">2dp</dimen>
+
+    <dimen name="forecast_card_update_time_layout_padding">16dp</dimen>
+    <dimen name="forecast_card_update_time_text_margin_top">4dp</dimen>
+
+    <dimen name="forecast_card_condition_temp_layout_padding_start_end">16dp</dimen>
+    <dimen name="forecast_card_condition_temp_layout_padding_bottom">8dp</dimen>
+    <dimen name="forecast_card_condition_image_size">72dp</dimen>
+    <dimen name="forecast_card_condition_image_divider_width">1dp</dimen>
+    <dimen name="forecast_card_condition_image_divider_margin_start_end">8dp</dimen>
+    <dimen name="forecast_card_condition_temp_divider_height">1dp</dimen>
+    <dimen name="forecast_card_condition_temp_divider_margin_top_bottom">8dp</dimen>
+
+    <dimen name="forecast_card_expanded_content_layout_padding_start_end">16dp</dimen>
+    <dimen name="forecast_card_expanded_content_layout_padding_top_bottom">8dp</dimen>
+    <dimen name="forecast_card_expanded_content_inner_layout_width">0dp</dimen>
+    <dimen name="forecast_card_expanded_content_space_width">1dp</dimen>
+    <dimen name="forecast_card_expanded_content_space_height">4dp</dimen>
+
+    <dimen name="forecast_card_expanded_content_expand_collapse_button_divider_height">1dp</dimen>
+
+    <dimen name="forecast_card_expanded_content_expand_collapse_button_height">48dp</dimen>
+    <dimen name="forecast_card_expanded_content_expand_collapse_button_padding_start_end">8dp</dimen>
+    <dimen name="forecast_card_expanded_content_expand_collapse_button_text_margin_end">8dp</dimen>
+    <dimen name="forecast_card_expanded_content_expand_collapse_button_text_padding_start">8dp</dimen>
+    <dimen name="forecast_card_expanded_content_expand_collapse_button_icon_width">32dp</dimen>
+    <dimen name="forecast_card_expanded_content_expand_collapse_button_icon_height">24dp</dimen>
+    <dimen name="forecast_card_expanded_content_expand_collapse_button_icon_padding_end">8dp</dimen>
+
+    <!-- Forecast day temps card -->
+    <dimen name="forecast_daytemps_card_margin_start_end">8dp</dimen>
+    <dimen name="forecast_daytemps_card_margin_top_bottom">4dp</dimen>
+    <dimen name="forecast_daytemps_card_elevation">2dp</dimen>
+
+    <dimen name="forecast_daytemps_card_daytemps_padding">16dp</dimen>
+    <dimen name="forecast_daytemps_card_daytemps_layout_margin_start_end">16dp</dimen>
+
+    <dimen name="forecast_daytemps_card_min_max_layout_margin_start_end">16dp</dimen>
+    <dimen name="forecast_daytemps_card_min_max_layout_margin_top">16dp</dimen>
+
+    <dimen name="forecast_daytemps_card_provider_link_height">48dp</dimen>
+    <dimen name="forecast_daytemps_card_provider_link_padding_start_end">16dp</dimen>
+    <!-- Weather fragments end -->
+
+    <!-- Bottom navigation bar -->
+    <dimen name="bottom_navigation_bar_height">56dp</dimen>
+    <dimen name="bottom_navigation_bar_elevation">8dp</dimen>
+    <dimen name="bottom_navigation_bar_item_icon_size">24dp</dimen>
+    <dimen name="bottom_navigation_bar_item_icon_margin_top">6dp</dimen>
+    <dimen name="bottom_navigation_bar_item_text_padding_start_end">12dp</dimen>
+    <dimen name="bottom_navigation_bar_item_text_padding_bottom">10dp</dimen>
+    <dimen name="bottom_navigation_bar_item_text_size">12sp</dimen>
+
+    <!-- Notification -->
+    <dimen name="notification_small_icon_size">24dp</dimen>
+    <dimen name="notification_small_icon_max_text_height">12dp</dimen>
+
+    <dimen name="notification_collapsed_content_image_height">40dp</dimen>
+    <dimen name="notification_collapsed_content_text_margin_top">0.5dp</dimen>
+
+    <dimen name="notification_expanded_content_item_image_max_width">40dp</dimen>
+    <dimen name="notification_expanded_content_item_image_padding_top_bottom">2dp</dimen>
+</resources>

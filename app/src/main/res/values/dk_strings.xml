@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 DarkKat
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- General -->
+    <string name="app_name">DarkKat Weather</string>
+    <string name="weather_title">Weather</string>
+    <string name="weather_not_available_title">Weather data not available</string>
+
+    <!-- App shortcuts -->
+    <string name="shortcut_disabled_message">Disabled</string>
+
+    <!-- Notifications -->
+    <string name="foreground_service_notification_content_title">WeatherService</string>
+    <string name="foreground_service_notification_content_text">WeatherService is running in the foreground</string>
+
+    <!-- Notification channels -->
+    <string name="weather_notification_chanel_title">Weather</string>
+    <string name="weather_notification_chanel_description">Category used for the ongoing weather notification</string>
+    <string name="foreground_service_notification_chanel_title">WeatherService</string>
+    <string name="foreground_service_notification_chanel_description">Category used for WeatherService notifications</string>
+
+    <!-- Actionbar -->
+    <string name="today_title">Today</string>
+    <string name="update_weather">Update Weather</string>
+    <string name="weather_updated">Weather data has been updated</string>
+    <string name="action_bar_no_weather_data_part">, (no weather data)</string>
+
+    <!-- Weather fragments -->
+    <string name="current_title">Current</string>
+    <string name="forecast_title">Forecast</string>
+    <string name="daytemps_title">Day temps</string>
+    <string name="morning_title">Morning:</string>
+    <string name="day_title">Daytime:</string>
+    <string name="evening_title">Evening:</string>
+    <string name="night_title">Night:</string>
+    <string name="min_title">Min. :</string>
+    <string name="max_title">Max. :</string>
+    <string name="precipitation_title">Precipitation:</string>
+    <string name="no_precipitation_value">None</string>
+    <string name="wind_title">Wind:</string>
+    <string name="sunrise_title">Sunrise:</string>
+    <string name="humidity_title">Humidity:</string>
+    <string name="pressure_title">Pressure:</string>
+    <string name="sunset_title">Sunset:</string>
+    <string name="expand_card">Show more</string>
+    <string name="collapse_card">Show less</string>
+
+    <!-- No weather data fragment -->
+    <string name="no_weather_data_header">Weather data is not available!</string>
+    <string name="no_weather_data_title1">This is normal:</string>
+    <string name="no_weather_data_title2">Otherwise:</string>
+    <string name="no_weather_data_summary1">- On first app start\n- After factory reset\n- After wiping app data\nGo to settings and (re)setup the weather</string>
+    <string name="no_weather_data_summary2">- Make sure you are connected to the internet\n- Weather is enabled\n- Location permission was granted,\n  (when custom location is disabled)\n- Location is enabled via system settings,\n  (when custom location is disabled)\n- You set a valid location,\n  (when custom location is enabled)</string>
+
+    <!-- Bottom navigation bar -->
+    <string name="action_previous_day_title">Previous day</string>
+    <string name="action_next_day_title">Next day</string>
+
+    <!-- Units -->
+    <string name="temp_celsius_unit_title">C</string>
+    <string name="temp_fahrenheit_unit_title">F</string>
+    <string name="speed_kph_unit_title">&#160;kph</string>
+    <string name="speed_mph_unit_title">&#160;mph</string>
+    <string name="pressure_unit_title">&#160;hPa</string>
+    <string name="precipitation_unit_1h_title">&#160;mm/h</string>
+    <string name="precipitation_unit_3h_title">&#160;mm/3h</string>
+
+    <!-- Settings -->
+    <string name="settings_cat_app_drawer_title">App drawer</string>
+    <string name="weather_settings_title">Weather settings</string>
+    <string name="notification_title">Ongoing notification</string>
+    <string name="owm_api_key_title">Open Weather Map API key</string>
+    <string name="default_api_key_title">Default Darkkat API key</string>
+    <string name="custom_api_key_summary">Own API key</string>
+    <string name="owm_api_key_dlg_message">Enter the API key here, or delete API key, to use the default DarkKat API key</string>
+    <string name="theme_title">Theme</string>
+    <string name="show_settings_shortcut">Show settings shortcut</string>
+
+    <string name="show_notification_title">Show ongoing notification</string>
+    <string name="notification_show_location_title">Show location</string>
+    <string name="notification_show_dk_icon_title">Show DarkKat icon</string>
+
+    <string name="theme_use_dark_theme_title">Dark theme</string>
+    <string name="theme_use_dark_theme_summary">Enable to use a dark theme</string>
+    <string name="theme_use_light_status_bar_title">Light status- &amp; action bar</string>
+    <string name="theme_use_light_status_bar_summary">Enable to use a light status- &amp; action bar on the light theme</string>
+    <string name="theme_use_light_navigation_bar_title">Light navigation bar</string>
+    <string name="theme_use_light_navigation_bar_summary">Enable to use a light navigation bar on the light theme</string>
+
+    <!-- CyanogenMod additions -->
+
+    <!-- General -->
+    <string name="unknown">Unknown</string>
+
+    <!-- Weather codes -->
+    <string name="weather_0">Tornado</string>
+    <string name="weather_1">Tropical Storm</string>
+    <string name="weather_2">Hurricane</string>
+    <string name="weather_3">Severe Thunderstorms</string>
+    <string name="weather_4">Thunderstorms</string>
+    <string name="weather_5">Mixed Rain and Snow</string>
+    <string name="weather_6">Mixed Rain and Sleet</string>
+    <string name="weather_7">Mixed Snow and Sleet</string>
+    <string name="weather_8">Freezing Drizzle</string>
+    <string name="weather_9">Drizzle</string>
+    <string name="weather_10">Freezing Rain</string>
+    <string name="weather_11">Showers</string>
+    <string name="weather_12">Showers</string>
+    <string name="weather_13">Snow Flurries</string>
+    <string name="weather_14">Light Snow Showers</string>
+    <string name="weather_15">Blowing Snow</string>
+    <string name="weather_16">Snow</string>
+    <string name="weather_17">Hail</string>
+    <string name="weather_18">Sleet</string>
+    <string name="weather_19">Dust</string>
+    <string name="weather_20">Foggy</string>
+    <string name="weather_21">Haze</string>
+    <string name="weather_22">Smoky</string>
+    <string name="weather_23">Blustery</string>
+    <string name="weather_24">Windy</string>
+    <string name="weather_25">Cold</string>
+    <string name="weather_26">Cloudy</string>
+    <!-- Night -->
+    <string name="weather_27">Mostly Cloudy</string>
+    <!-- Day -->
+    <string name="weather_28">Mostly Cloudy</string>
+    <!-- Night -->
+    <string name="weather_29">Partly Cloudy</string>
+    <!-- Day -->
+    <string name="weather_30">Partly Cloudy</string>
+    <!-- Night -->
+    <string name="weather_31">Clear</string>
+    <string name="weather_32">Sunny</string>
+    <!-- Night -->
+    <string name="weather_33">Fair</string>
+    <!-- Day -->
+    <string name="weather_34">Fair</string>
+    <string name="weather_35">Mixed Rain and Hail</string>
+    <string name="weather_36">Hot</string>
+    <string name="weather_37">Isolated Thunderstorms</string>
+    <string name="weather_38">Scattered Thunderstorms</string>
+    <string name="weather_39">Scattered Thunderstorms</string>
+    <string name="weather_40">Scattered Showers</string>
+    <string name="weather_41">Heavy Snow</string>
+    <string name="weather_42">Scattered Snow Showers</string>
+    <string name="weather_43">Heavy Snow</string>
+    <string name="weather_44">Partly Cloudy</string>
+    <string name="weather_45">Thundershowers</string>
+    <string name="weather_46">Snow Showers</string>
+    <string name="weather_47">Isolated Thundershowers</string>
+
+    <!-- Weather - Wind directions -->
+    <string name="weather_N">N</string>
+    <string name="weather_NE">NE</string>
+    <string name="weather_E">E</string>
+    <string name="weather_SE">SE</string>
+    <string name="weather_S">S</string>
+    <string name="weather_SW">SW</string>
+    <string name="weather_W">W</string>
+    <string name="weather_NW">NW</string>
+</resources>
